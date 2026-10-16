@@ -11,6 +11,12 @@ from __future__ import annotations
 import argparse
 import sys
 
+# Configure UTF-8 stdout/stderr for cross-platform and Windows console compatibility
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 from source.translator import UniverlanTranslator
 from source.phonetics import to_ipa
 from source.wilkins import WilkinsDecomposer
