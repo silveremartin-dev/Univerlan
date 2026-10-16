@@ -1,0 +1,1577 @@
+[
+  {
+    "english": "a",
+    "univerlan": "un",
+    "ipa": "/un/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "about",
+    "univerlan": "abut",
+    "ipa": "/abut/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "advance",
+    "univerlan": "mov-fowad",
+    "ipa": "/mɔv.fɔwad/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.trajectory.forward"
+  },
+  {
+    "english": "agree",
+    "univerlan": "agri",
+    "ipa": "/aɡri/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "all",
+    "univerlan": "ol",
+    "ipa": "/ɔl/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "an",
+    "univerlan": "un",
+    "ipa": "/un/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "and",
+    "univerlan": "and",
+    "ipa": "/and/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "ascend",
+    "univerlan": "mov-up",
+    "ipa": "/mɔv.up/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.vertical.up"
+  },
+  {
+    "english": "at",
+    "univerlan": "at",
+    "ipa": "/at/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "attract",
+    "univerlan": "mov-tu-mi",
+    "ipa": "/mɔv.tu.mi/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.egocentric.towards"
+  },
+  {
+    "english": "bad",
+    "univerlan": "bad",
+    "ipa": "/bad/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "bay",
+    "univerlan": "bei",
+    "ipa": "/beɪ/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "be",
+    "univerlan": "is",
+    "ipa": "/is/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "because",
+    "univerlan": "bikoz",
+    "ipa": "/bikɔz/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "begin",
+    "univerlan": "stat",
+    "ipa": "/stat/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "between",
+    "univerlan": "bitwin",
+    "ipa": "/bitwin/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "big",
+    "univerlan": "big",
+    "ipa": "/biɡ/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "board",
+    "univerlan": "mov-in",
+    "ipa": "/mɔv.in/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.boundary.in"
+  },
+  {
+    "english": "bring",
+    "univerlan": "bring",
+    "ipa": "/brinɡ/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "but",
+    "univerlan": "but",
+    "ipa": "/but/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "buy",
+    "univerlan": "bay",
+    "ipa": "/baj/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "by",
+    "univerlan": "bai",
+    "ipa": "/baɪ/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "can",
+    "univerlan": "kan",
+    "ipa": "/kan/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "captain",
+    "univerlan": "kapten",
+    "ipa": "/kaptɛn/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "cargo",
+    "univerlan": "kargo",
+    "ipa": "/karɡɔ/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "child",
+    "univerlan": "cild",
+    "ipa": "/tʃild/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "chill",
+    "univerlan": "mek-kold",
+    "ipa": "/mɛk.kɔld/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: causative.thermal.cold"
+  },
+  {
+    "english": "clarify",
+    "univerlan": "mek-klir",
+    "ipa": "/mɛk.klir/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: causative.purity.clean"
+  },
+  {
+    "english": "clean",
+    "univerlan": "klir",
+    "ipa": "/klir/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "clean",
+    "univerlan": "mek-klir",
+    "ipa": "/mɛk.klir/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: causative.purity.clean"
+  },
+  {
+    "english": "clear",
+    "univerlan": "klir",
+    "ipa": "/klir/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "climb",
+    "univerlan": "mov-up",
+    "ipa": "/mɔv.up/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.vertical.up"
+  },
+  {
+    "english": "close",
+    "univerlan": "mek-klos",
+    "ipa": "/mɛk.klɔs/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: causative.aperture.closed"
+  },
+  {
+    "english": "closed",
+    "univerlan": "klos",
+    "ipa": "/klɔs/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "cold",
+    "univerlan": "kold",
+    "ipa": "/kɔld/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "cool",
+    "univerlan": "mek-kold",
+    "ipa": "/mɛk.kɔld/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: causative.thermal.cold"
+  },
+  {
+    "english": "could",
+    "univerlan": "kud",
+    "ipa": "/kud/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "credit",
+    "univerlan": "kredit",
+    "ipa": "/krɛdit/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "credits",
+    "univerlan": "kredits",
+    "ipa": "/krɛdits/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "crystal",
+    "univerlan": "kristal",
+    "ipa": "/kristal/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "crystals",
+    "univerlan": "kristals",
+    "ipa": "/kristals/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "danger",
+    "univerlan": "danja",
+    "ipa": "/dandʒa/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "dangerous",
+    "univerlan": "danjas",
+    "ipa": "/dandʒas/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "day",
+    "univerlan": "dei",
+    "ipa": "/deɪ/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "descend",
+    "univerlan": "mov-don",
+    "ipa": "/mɔv.dɔn/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.vertical.down"
+  },
+  {
+    "english": "disembark",
+    "univerlan": "mov-ut",
+    "ipa": "/mɔv.ut/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.boundary.out"
+  },
+  {
+    "english": "do",
+    "univerlan": "du",
+    "ipa": "/du/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "dock",
+    "univerlan": "dok",
+    "ipa": "/dɔk/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "doctor",
+    "univerlan": "doktor",
+    "ipa": "/dɔktɔr/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "door",
+    "univerlan": "dor",
+    "ipa": "/dɔr/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "drag",
+    "univerlan": "mov-tu-mi",
+    "ipa": "/mɔv.tu.mi/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.egocentric.towards"
+  },
+  {
+    "english": "drop",
+    "univerlan": "mov-don",
+    "ipa": "/mɔv.dɔn/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.vertical.down"
+  },
+  {
+    "english": "elevate",
+    "univerlan": "mov-up",
+    "ipa": "/mɔv.up/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.vertical.up"
+  },
+  {
+    "english": "embark",
+    "univerlan": "mov-in",
+    "ipa": "/mɔv.in/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.boundary.in"
+  },
+  {
+    "english": "enemy",
+    "univerlan": "enemi",
+    "ipa": "/ɛnɛmi/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "energy",
+    "univerlan": "enaji",
+    "ipa": "/ɛnadʒi/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "engine",
+    "univerlan": "mov-tul",
+    "ipa": "/mɔv.tul/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "enter",
+    "univerlan": "mov-in",
+    "ipa": "/mɔv.in/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.boundary.in"
+  },
+  {
+    "english": "exit",
+    "univerlan": "mov-ut",
+    "ipa": "/mɔv.ut/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.boundary.out"
+  },
+  {
+    "english": "fall",
+    "univerlan": "mov-don",
+    "ipa": "/mɔv.dɔn/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.vertical.down"
+  },
+  {
+    "english": "false",
+    "univerlan": "fols",
+    "ipa": "/fɔls/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "fast",
+    "univerlan": "kwik",
+    "ipa": "/kwik/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "few",
+    "univerlan": "fyu",
+    "ipa": "/fju/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "find",
+    "univerlan": "faind",
+    "ipa": "/faɪnd/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "fix",
+    "univerlan": "fix",
+    "ipa": "/fiʃ/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "food",
+    "univerlan": "fud",
+    "ipa": "/fud/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "for",
+    "univerlan": "for",
+    "ipa": "/fɔr/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "friend",
+    "univerlan": "frend",
+    "ipa": "/frɛnd/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "from",
+    "univerlan": "fro",
+    "ipa": "/frɔ/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "fuel",
+    "univerlan": "fuel",
+    "ipa": "/fuɛl/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "give",
+    "univerlan": "giv",
+    "ipa": "/ɡiv/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "good",
+    "univerlan": "gud",
+    "ipa": "/ɡud/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "hatch",
+    "univerlan": "hac",
+    "ipa": "/hatʃ/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "have",
+    "univerlan": "hav",
+    "ipa": "/hav/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "he",
+    "univerlan": "hi",
+    "ipa": "/hi/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "hear",
+    "univerlan": "hir",
+    "ipa": "/hir/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "heat",
+    "univerlan": "mek-hot",
+    "ipa": "/mɛk.hɔt/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: causative.thermal.hot"
+  },
+  {
+    "english": "help",
+    "univerlan": "help",
+    "ipa": "/hɛlp/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "her",
+    "univerlan": "xe",
+    "ipa": "/ʃɛ/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "here",
+    "univerlan": "hiar",
+    "ipa": "/hiar/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "hers",
+    "univerlan": "xen",
+    "ipa": "/ʃɛn/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "herself",
+    "univerlan": "xeself",
+    "ipa": "/ʃɛsɛlf/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "him",
+    "univerlan": "hi",
+    "ipa": "/hi/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "himself",
+    "univerlan": "hiself",
+    "ipa": "/hisɛlf/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "his",
+    "univerlan": "hin",
+    "ipa": "/hin/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "hot",
+    "univerlan": "hot",
+    "ipa": "/hɔt/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "how",
+    "univerlan": "hau",
+    "ipa": "/haʊ/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "i",
+    "univerlan": "mi",
+    "ipa": "/mi/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "if",
+    "univerlan": "if",
+    "ipa": "/if/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "in",
+    "univerlan": "in",
+    "ipa": "/in/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "it",
+    "univerlan": "it",
+    "ipa": "/it/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "its",
+    "univerlan": "itn",
+    "ipa": "/itn/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "itself",
+    "univerlan": "itself",
+    "ipa": "/itsɛlf/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "kill",
+    "univerlan": "mek-ded",
+    "ipa": "/mɛk.dɛd/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: causative.vitality.terminate"
+  },
+  {
+    "english": "know",
+    "univerlan": "no",
+    "ipa": "/nɔ/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "large",
+    "univerlan": "big",
+    "ipa": "/biɡ/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "leave",
+    "univerlan": "mov-ut",
+    "ipa": "/mɔv.ut/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.boundary.out"
+  },
+  {
+    "english": "lever",
+    "univerlan": "lever",
+    "ipa": "/lɛvɛr/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "lift",
+    "univerlan": "mov-up",
+    "ipa": "/mɔv.up/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.vertical.up"
+  },
+  {
+    "english": "little",
+    "univerlan": "smol",
+    "ipa": "/smɔl/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "lower",
+    "univerlan": "mov-don",
+    "ipa": "/mɔv.dɔn/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.vertical.down"
+  },
+  {
+    "english": "make",
+    "univerlan": "mek",
+    "ipa": "/mɛk/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "man",
+    "univerlan": "man",
+    "ipa": "/man/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "many",
+    "univerlan": "meni",
+    "ipa": "/mɛni/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "may",
+    "univerlan": "kan",
+    "ipa": "/kan/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "me",
+    "univerlan": "mi",
+    "ipa": "/mi/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "medicine",
+    "univerlan": "medisin",
+    "ipa": "/mɛdisin/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "might",
+    "univerlan": "kud",
+    "ipa": "/kud/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "mine",
+    "univerlan": "min",
+    "ipa": "/min/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "money",
+    "univerlan": "kredit",
+    "ipa": "/krɛdit/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "moon",
+    "univerlan": "lun",
+    "ipa": "/lun/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "much",
+    "univerlan": "mac",
+    "ipa": "/matʃ/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "must",
+    "univerlan": "mas",
+    "ipa": "/mas/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "my",
+    "univerlan": "min",
+    "ipa": "/min/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "myself",
+    "univerlan": "miself",
+    "ipa": "/misɛlf/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "new",
+    "univerlan": "nu",
+    "ipa": "/nu/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "night",
+    "univerlan": "nait",
+    "ipa": "/naɪt/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "no",
+    "univerlan": "no",
+    "ipa": "/nɔ/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "not",
+    "univerlan": "no",
+    "ipa": "/nɔ/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "now",
+    "univerlan": "nau",
+    "ipa": "/naʊ/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "old",
+    "univerlan": "old",
+    "ipa": "/ɔld/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "on",
+    "univerlan": "on",
+    "ipa": "/ɔn/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "open",
+    "univerlan": "open",
+    "ipa": "/ɔpɛn/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "open",
+    "univerlan": "mek-open",
+    "ipa": "/mɛk.ɔpɛn/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: causative.aperture.open"
+  },
+  {
+    "english": "operate",
+    "univerlan": "operat",
+    "ipa": "/ɔpɛrat/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "or",
+    "univerlan": "or",
+    "ipa": "/ɔr/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "our",
+    "univerlan": "win",
+    "ipa": "/win/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "ours",
+    "univerlan": "win",
+    "ipa": "/win/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "ourselves",
+    "univerlan": "wiselfs",
+    "ipa": "/wisɛlfs/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "outpost",
+    "univerlan": "utpost",
+    "ipa": "/utpɔst/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "over",
+    "univerlan": "ova",
+    "ipa": "/ɔva/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "penetrate",
+    "univerlan": "mov-in",
+    "ipa": "/mɔv.in/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.boundary.in"
+  },
+  {
+    "english": "people",
+    "univerlan": "mans",
+    "ipa": "/mans/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "person",
+    "univerlan": "man",
+    "ipa": "/man/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "planet",
+    "univerlan": "planet",
+    "ipa": "/planɛt/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "please",
+    "univerlan": "pliis",
+    "ipa": "/pliis/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "power",
+    "univerlan": "enaji",
+    "ipa": "/ɛnadʒi/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "price",
+    "univerlan": "prais",
+    "ipa": "/praɪs/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "proceed",
+    "univerlan": "mov-fowad",
+    "ipa": "/mɔv.fɔwad/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.trajectory.forward"
+  },
+  {
+    "english": "pull",
+    "univerlan": "mov-tu-mi",
+    "ipa": "/mɔv.tu.mi/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.egocentric.towards"
+  },
+  {
+    "english": "push",
+    "univerlan": "mov-fro-mi",
+    "ipa": "/mɔv.frɔ.mi/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.egocentric.away"
+  },
+  {
+    "english": "quick",
+    "univerlan": "kwik",
+    "ipa": "/kwik/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "radio",
+    "univerlan": "kom-tul",
+    "ipa": "/kɔm.tul/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "raise",
+    "univerlan": "mov-up",
+    "ipa": "/mɔv.up/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.vertical.up"
+  },
+  {
+    "english": "ramp",
+    "univerlan": "ramp",
+    "ipa": "/ramp/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "ready",
+    "univerlan": "redi",
+    "ipa": "/rɛdi/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "repair",
+    "univerlan": "fix",
+    "ipa": "/fiʃ/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "repel",
+    "univerlan": "mov-fro-mi",
+    "ipa": "/mɔv.frɔ.mi/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.egocentric.away"
+  },
+  {
+    "english": "retreat",
+    "univerlan": "mov-bak",
+    "ipa": "/mɔv.bak/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.trajectory.backward"
+  },
+  {
+    "english": "return",
+    "univerlan": "mov-bak",
+    "ipa": "/mɔv.bak/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.trajectory.backward"
+  },
+  {
+    "english": "safe",
+    "univerlan": "saf",
+    "ipa": "/saf/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "say",
+    "univerlan": "sei",
+    "ipa": "/seɪ/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "screen",
+    "univerlan": "skrin",
+    "ipa": "/skrin/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "see",
+    "univerlan": "si",
+    "ipa": "/si/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "sell",
+    "univerlan": "sel",
+    "ipa": "/sɛl/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "sensor",
+    "univerlan": "vju-tul",
+    "ipa": "/vdʒu.tul/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "she",
+    "univerlan": "xe",
+    "ipa": "/ʃɛ/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "ship",
+    "univerlan": "xip",
+    "ipa": "/ʃip/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "should",
+    "univerlan": "xud",
+    "ipa": "/ʃud/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "shove",
+    "univerlan": "mov-fro-mi",
+    "ipa": "/mɔv.frɔ.mi/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.egocentric.away"
+  },
+  {
+    "english": "shut",
+    "univerlan": "mek-klos",
+    "ipa": "/mɛk.klɔs/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: causative.aperture.closed"
+  },
+  {
+    "english": "sink",
+    "univerlan": "mov-don",
+    "ipa": "/mɔv.dɔn/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: kinetic.vertical.down"
+  },
+  {
+    "english": "slow",
+    "univerlan": "slo",
+    "ipa": "/slɔ/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "small",
+    "univerlan": "smol",
+    "ipa": "/smɔl/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "so",
+    "univerlan": "so",
+    "ipa": "/sɔ/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "some",
+    "univerlan": "som",
+    "ipa": "/sɔm/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "speak",
+    "univerlan": "spik",
+    "ipa": "/spik/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "star",
+    "univerlan": "sta",
+    "ipa": "/sta/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "starship",
+    "univerlan": "stat-xip",
+    "ipa": "/stat.ʃip/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "start",
+    "univerlan": "stat",
+    "ipa": "/stat/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "station",
+    "univerlan": "stasion",
+    "ipa": "/stasiɔn/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "stop",
+    "univerlan": "stop",
+    "ipa": "/stɔp/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "system",
+    "univerlan": "sistem",
+    "ipa": "/sistɛm/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "systems",
+    "univerlan": "sistems",
+    "ipa": "/sistɛms/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "take",
+    "univerlan": "tek",
+    "ipa": "/tɛk/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "talk",
+    "univerlan": "spik",
+    "ipa": "/spik/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "tell",
+    "univerlan": "tel",
+    "ipa": "/tɛl/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "thank",
+    "univerlan": "dank",
+    "ipa": "/dank/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "thanks",
+    "univerlan": "dank",
+    "ipa": "/dank/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "that",
+    "univerlan": "dat",
+    "ipa": "/dat/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "the",
+    "univerlan": "de",
+    "ipa": "/dɛ/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "their",
+    "univerlan": "den",
+    "ipa": "/dɛn/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "theirs",
+    "univerlan": "den",
+    "ipa": "/dɛn/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "them",
+    "univerlan": "de",
+    "ipa": "/dɛ/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "themselves",
+    "univerlan": "deselfs",
+    "ipa": "/dɛsɛlfs/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "then",
+    "univerlan": "den",
+    "ipa": "/dɛn/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "there",
+    "univerlan": "der",
+    "ipa": "/dɛr/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "these",
+    "univerlan": "dis",
+    "ipa": "/dis/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "they",
+    "univerlan": "de",
+    "ipa": "/dɛ/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "think",
+    "univerlan": "tink",
+    "ipa": "/tink/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "this",
+    "univerlan": "dis",
+    "ipa": "/dis/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "those",
+    "univerlan": "dos",
+    "ipa": "/dɔs/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "through",
+    "univerlan": "tru",
+    "ipa": "/tru/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "time",
+    "univerlan": "taim",
+    "ipa": "/taɪm/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "to",
+    "univerlan": "tu",
+    "ipa": "/tu/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "trade",
+    "univerlan": "treid",
+    "ipa": "/treɪd/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "trader",
+    "univerlan": "treider",
+    "ipa": "/treɪdɛr/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "true",
+    "univerlan": "tru",
+    "ipa": "/tru/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "under",
+    "univerlan": "onda",
+    "ipa": "/ɔnda/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "understand",
+    "univerlan": "andastan",
+    "ipa": "/andastan/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "us",
+    "univerlan": "wi",
+    "ipa": "/wi/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "very",
+    "univerlan": "veri",
+    "ipa": "/vɛri/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "wait",
+    "univerlan": "wait",
+    "ipa": "/waɪt/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "warm",
+    "univerlan": "mek-hot",
+    "ipa": "/mɛk.hɔt/",
+    "type": "wilkins_vector",
+    "notes": "Wilkins ontology: causative.thermal.hot"
+  },
+  {
+    "english": "water",
+    "univerlan": "wata",
+    "ipa": "/wata/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "we",
+    "univerlan": "wi",
+    "ipa": "/wi/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "well",
+    "univerlan": "gud",
+    "ipa": "/ɡud/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "what",
+    "univerlan": "wat",
+    "ipa": "/wat/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "when",
+    "univerlan": "wen",
+    "ipa": "/wɛn/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "where",
+    "univerlan": "wer",
+    "ipa": "/wɛr/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "who",
+    "univerlan": "hu",
+    "ipa": "/hu/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "why",
+    "univerlan": "wai",
+    "ipa": "/waɪ/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "will",
+    "univerlan": "wil",
+    "ipa": "/wil/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "with",
+    "univerlan": "wit",
+    "ipa": "/wit/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "without",
+    "univerlan": "witut",
+    "ipa": "/witut/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "woman",
+    "univerlan": "woman",
+    "ipa": "/wɔman/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "work",
+    "univerlan": "wok",
+    "ipa": "/wɔk/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "would",
+    "univerlan": "wud",
+    "ipa": "/wud/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "year",
+    "univerlan": "yiar",
+    "ipa": "/jiar/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "yes",
+    "univerlan": "yes",
+    "ipa": "/jɛs/",
+    "type": "lexicon",
+    "notes": "Core vocabulary"
+  },
+  {
+    "english": "you",
+    "univerlan": "yu",
+    "ipa": "/ju/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "your",
+    "univerlan": "yun",
+    "ipa": "/jun/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "yours",
+    "univerlan": "yun",
+    "ipa": "/jun/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "yourself",
+    "univerlan": "yuself",
+    "ipa": "/jusɛlf/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  },
+  {
+    "english": "yourselves",
+    "univerlan": "yuselfs",
+    "ipa": "/jusɛlfs/",
+    "type": "pronoun",
+    "notes": "Pronominal system"
+  }
+]
