@@ -66,6 +66,23 @@ def main() -> None:
         "--save", metavar="FILE", help="Save speech as .wav file"
     )
 
+    # listen command (Microphone STT -> Translate)
+    listen_p = subparsers.add_parser(
+        "listen", help="Listen from microphone, transcribe and translate"
+    )
+    listen_p.add_argument(
+        "--speak", action="store_true", help="Speak the Univerlan translation"
+    )
+
+    # transcribe command (Audio file STT -> Translate)
+    transcribe_p = subparsers.add_parser(
+        "transcribe", help="Transcribe audio file to text and translate"
+    )
+    transcribe_p.add_argument("file", help="Path to audio file (.wav, .flac)")
+    transcribe_p.add_argument(
+        "--speak", action="store_true", help="Speak the Univerlan translation"
+    )
+
     args = parser.parse_args()
 
     if not args.command:
@@ -110,6 +127,38 @@ def main() -> None:
                 print(f"Failed to save audio to {args.save}", file=sys.stderr)
         else:
             tts.speak(args.text)
+
+    elif args.command == "listen":
+        from source.stt import SpeechTranscriber
+        stt = SpeechTranscriber()
+        recognized_text = stt.listen_and_transcribe()
+        if recognized_text:
+            print(f"\n[Heard English]  {recognized_text}")
+            translator = UniverlanTranslator()
+            res = translator.translate(recognized_text)
+            print(f"[UV Translated]  {res.univerlan_text}")
+            print(f"[IPA]            {res.ipa_transcription}")
+            if args.speak:
+                tts = SpeechSynthesizer()
+                tts.speak(res.univerlan_text)
+        else:
+            print("[STT] Could not capture speech.", file=sys.stderr)
+
+    elif args.command == "transcribe":
+        from source.stt import SpeechTranscriber
+        stt = SpeechTranscriber()
+        recognized_text = stt.transcribe_file(args.file)
+        if recognized_text:
+            print(f"\n[Transcribed]    {recognized_text}")
+            translator = UniverlanTranslator()
+            res = translator.translate(recognized_text)
+            print(f"[UV Translated]  {res.univerlan_text}")
+            print(f"[IPA]            {res.ipa_transcription}")
+            if args.speak:
+                tts = SpeechSynthesizer()
+                tts.speak(res.univerlan_text)
+        else:
+            print("[STT] Could not transcribe audio file.", file=sys.stderr)
 
 
 if __name__ == "__main__":

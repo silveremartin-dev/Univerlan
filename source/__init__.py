@@ -14,6 +14,7 @@ from source.morphology import Regularizer
 from source.wilkins import WilkinsDecomposer
 from source.translator import UniverlanTranslator
 from source.tts import SpeechSynthesizer
+from source.stt import SpeechTranscriber
 
 __all__ = [
     "PhoneticTranscriber",
@@ -23,4 +24,5 @@ __all__ = [
     "WilkinsDecomposer",
     "UniverlanTranslator",
     "SpeechSynthesizer",
+    "SpeechTranscriber",
 ]
