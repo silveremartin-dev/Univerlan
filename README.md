@@ -5,6 +5,7 @@
 [![Phonology](https://img.shields.io/badge/Phonology-Bijective%201%3A1-purple.svg)](doc/phonology_orthography.md)
 [![Ontology](https://img.shields.io/badge/Ontology-Wilkins%20Vectors-orange.svg)](doc/wilkins_ontology.md)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](#installation)
+[![Repository](https://img.shields.io/badge/GitHub-silveremartin--dev%2FUniverlan-181717?logo=github)](https://github.com/silveremartin-dev/Univerlan)
 
 > *"Language taken after English without irregular verbs, keeping SVO order, past, present, future and other tenses, pronouns, plural, connectors... promote constructed nouns/verbs as prefixes and suffixes using Wilkins a priori categorization... acknowledge language is made for cheap pragmatic communication."*  
 > — *Founding Notes, Univerlan Spec*
