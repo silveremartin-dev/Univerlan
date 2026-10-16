@@ -21,3 +21,11 @@ def test_save_wav(tmp_path):
         assert ok is True
         assert os.path.exists(wav_path)
         assert os.path.getsize(wav_path) > 100
+
+
+def test_generate_formant_wav(tmp_path):
+    tts = SpeechSynthesizer()
+    wav_path = str(tmp_path / "test_formant.wav")
+    out = tts.generate_formant_wav("mi go tu de xip", wav_path)
+    assert os.path.exists(out)
+    assert os.path.getsize(out) > 500

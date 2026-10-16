@@ -1,0 +1,69 @@
+{
+  "title": {
+    "univerlan": "De Litl Prins (Capter 1)",
+    "en": "The Little Prince (Chapter 1)",
+    "fr": "Le Petit Prince (Chapitre 1)"
+  },
+  "sentences": [
+    {
+      "id": 1,
+      "univerlan": "Wen mi ised sik yirs old, mi siped wan taim a byutiful pikcur in a buk abaut de waild forest, kold 'Tru Storis'.",
+      "en": "When I was six years old, I saw once a beautiful picture in a book about the wild forest, called 'True Stories'.",
+      "fr": "Lorsque j'avais six ans, j'ai vu, une fois, une magnifique image dans un livre sur la forêt vierge qui s'appelait 'Histoires Vécues'."
+    },
+    {
+      "id": 2,
+      "univerlan": "It xowed a snek animel hu swalowed a big animel.",
+      "en": "It showed a snake animal who swallowed a big animal.",
+      "fr": "Elle représentait un serpent boa qui avalait un fauve."
+    },
+    {
+      "id": 3,
+      "univerlan": "De buk sed: 'De sneks swalow den fuds holli.'",
+      "en": "The book said: 'The snakes swallow their food whole.'",
+      "fr": "Le livre disait : 'Les serpents avalent leur proie tout entière.'"
+    },
+    {
+      "id": 4,
+      "univerlan": "Dan, de animel cannot mov.",
+      "en": "Then, the animal cannot move.",
+      "fr": "Ensuite, l'animal ne peut plus bouger."
+    },
+    {
+      "id": 5,
+      "univerlan": "De snek sliped for siks monts for dajesxun.",
+      "en": "The snake slept for six months for digestion.",
+      "fr": "Le serpent dort pendant six mois pour sa digestion."
+    },
+    {
+      "id": 6,
+      "univerlan": "Mi tinking a lot abaut de jungle adventures.",
+      "en": "I thought a lot about the jungle adventures.",
+      "fr": "J'ai alors beaucoup réfléchi sur les aventures de la jungle."
+    },
+    {
+      "id": 7,
+      "univerlan": "Mi maked min ferst pikcur wid a kolor pensil.",
+      "en": "I made my first picture with a colored pencil.",
+      "fr": "J'ai réussi, avec un crayon de couleur, à tracer mon premier dessin."
+    },
+    {
+      "id": 8,
+      "univerlan": "Mi xowed min pikcur tu de old persons.",
+      "en": "I showed my picture to the old persons.",
+      "fr": "J'ai montré mon dessin aux grandes personnes."
+    },
+    {
+      "id": 9,
+      "univerlan": "Mi asked: 'Dos dis pikcur meking yu afrayd?'",
+      "en": "I asked: 'Does this picture make you afraid?'",
+      "fr": "Je leur ai demandé : 'Est-ce que ce dessin vous fait peur ?'"
+    },
+    {
+      "id": 10,
+      "univerlan": "De old persons ansered: 'Way xud a hat meking samwan afrayd?'",
+      "en": "The old persons answered: 'Why should a hat make someone afraid?'",
+      "fr": "Elles m'ont répondu : 'Pourquoi un chapeau ferait-il peur ?'"
+    }
+  ]
+}
