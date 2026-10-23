@@ -41,6 +41,7 @@ class SpeechSynthesizer:
         adapted = re_sub_whole_word(adapted, "wi", "wee")
         adapted = re_sub_whole_word(adapted, "hi", "hee")
         adapted = re_sub_whole_word(adapted, "xe", "shee")
+        adapted = re_sub_whole_word(adapted, "dey", "day")
         adapted = re_sub_whole_word(adapted, "de", "deh")
         adapted = re_sub_whole_word(adapted, "tu", "too")
         adapted = re_sub_whole_word(adapted, "nu", "noo")
@@ -56,19 +57,20 @@ class SpeechSynthesizer:
         """
         adapted = self.prepare_phonetic_script(text)
 
-        # On Windows, use System.Speech.Synthesis via PowerShell
+        # On Windows, use System.Speech.Synthesis via PowerShell with safe stdin input
         if sys.platform == "win32":
-            # Sanitize text for PowerShell single-quote string
-            clean_text = adapted.replace("'", "''").replace('"', '`"')
-            ps_cmd = (
+            ps_script = (
                 f"Add-Type -AssemblyName System.Speech; "
                 f"$s = New-Object System.Speech.Synthesis.SpeechSynthesizer; "
-                f"$s.Rate = {self.rate}; $s.Volume = {self.volume}; "
-                f"$s.Speak('{clean_text}')"
+                f"$s.Rate = {int(self.rate)}; $s.Volume = {int(self.volume)}; "
+                f"$text = [Console]::In.ReadToEnd().Trim(); "
+                f"if ($text) {{ $s.Speak($text) }}"
             )
             try:
                 subprocess.run(
-                    ["powershell", "-NoProfile", "-Command", ps_cmd],
+                    ["powershell", "-NoProfile", "-Command", ps_script],
+                    input=adapted,
+                    text=True,
                     check=True,
                     capture_output=True,
                     timeout=15,

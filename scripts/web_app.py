@@ -369,9 +369,9 @@ HTML_PAGE = """<!DOCTYPE html>
           <tr><th>Person</th><th>Singular</th><th>Plural</th><th>Possessive (-n)</th></tr>
           <tr><td>1st</td><td><code>mi</code> (I / me)</td><td><code>wi</code> (we / us)</td><td><code>min</code> (my), <code>win</code> (our)</td></tr>
           <tr><td>2nd</td><td><code>yu</code> (you)</td><td><code>yus</code> (you all)</td><td><code>yun</code> (your)</td></tr>
-          <tr><td>3rd (M)</td><td><code>hi</code> (he / him)</td><td><code>de</code> (they / them)</td><td><code>hin</code> (his), <code>den</code> (their)</td></tr>
-          <tr><td>3rd (F)</td><td><code>xe</code> (she / her)</td><td><code>de</code> (they / them)</td><td><code>xen</code> (her), <code>den</code> (their)</td></tr>
-          <tr><td>3rd (N)</td><td><code>it</code> (it)</td><td><code>de</code> (they)</td><td><code>itn</code> (its)</td></tr>
+          <tr><td>3rd (M)</td><td><code>hi</code> (he / him)</td><td><code>dey</code> (they / them)</td><td><code>hin</code> (his), <code>deyn</code> (their)</td></tr>
+          <tr><td>3rd (F)</td><td><code>xe</code> (she / her)</td><td><code>dey</code> (they / them)</td><td><code>xen</code> (her), <code>deyn</code> (their)</td></tr>
+          <tr><td>3rd (N)</td><td><code>it</code> (it)</td><td><code>dey</code> (they)</td><td><code>itn</code> (its)</td></tr>
         </table>
 
         <h3 style="color:#38bdf8; font-size:1rem; margin-top:1rem;">3. Verbal System: 100% Regular</h3>

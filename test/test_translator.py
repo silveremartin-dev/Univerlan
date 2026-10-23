@@ -32,4 +32,4 @@ def test_wilkins_compound_translation():
 def test_negation_simplification():
     t = UniverlanTranslator()
     res = t.translate("We do not wait.")
-    assert "wi no wait" in res.univerlan_text.lower()
+    assert "wi no weit" in res.univerlan_text.lower()

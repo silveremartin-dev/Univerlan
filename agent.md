@@ -29,7 +29,7 @@ It is an **"English++" / rationalized lingua franca** inspired by John Wilkins (
 ├── LICENSE                   # MIT License
 ├── README.md                 # Project Overview & Quickstart
 ├── agent.md                  # This file (Agent Instructions & Architectural Spec)
-├── doc/                      # Formal Linguistic Specifications (English)
+├── docs/                      # Formal Linguistic Specifications (English)
 │   ├── phonology_orthography.md
 │   ├── grammar_syntax.md
 │   ├── lexicon_derivation.md

@@ -31,7 +31,7 @@ Personal pronouns are streamlined:
 - `xe` = she, her
 - `it` = it
 - `wi` = we, us
-- `de` = they, them
+- `dey` = they, them
 
 ### Possession Made Simple: Add `-n`
 Simply attach `-n` to any pronoun:
@@ -40,7 +40,7 @@ Simply attach `-n` to any pronoun:
 - `hin` = his
 - `xen` = her, hers
 - `win` = our, ours
-- `den` = their, theirs
+- `deyn` = their, theirs
 
 ---
 

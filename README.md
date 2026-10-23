@@ -2,8 +2,8 @@
 
 [![Tests](https://img.shields.io/badge/tests-19%20passed-brightgreen.svg)](#testing)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Phonology](https://img.shields.io/badge/Phonology-Bijective%201%3A1-purple.svg)](doc/phonology_orthography.md)
-[![Ontology](https://img.shields.io/badge/Ontology-Wilkins%20Vectors-orange.svg)](doc/wilkins_ontology.md)
+[![Phonology](https://img.shields.io/badge/Phonology-Bijective%201%3A1-purple.svg)](docs/phonology_orthography.md)
+[![Ontology](https://img.shields.io/badge/Ontology-Wilkins%20Vectors-orange.svg)](docs/wilkins_ontology.md)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](#installation)
 [![Repository](https://img.shields.io/badge/GitHub-silveremartin--dev%2FUniverlan-181717?logo=github)](https://github.com/silveremartin-dev/Univerlan)
 
@@ -40,7 +40,7 @@ This repository adheres to standard linguistic engineering layouts:
 ├── LICENSE                  # MIT License
 ├── README.md                # Comprehensive documentation & quickstart
 ├── agent.md                 # Agent and developer protocol guidelines
-├── doc/                     # Formal linguistic specifications
+├── docs/                     # Formal linguistic specifications
 │   ├── phonology_orthography.md # 1:1 Grapheme/phoneme mapping & IPA
 │   ├── grammar_syntax.md        # Strict SVO, tenses, pronouns, plurals
 │   ├── wilkins_ontology.md      # Conceptual vectors & causative prefixes
@@ -93,8 +93,8 @@ This repository adheres to standard linguistic engineering layouts:
 
 ### 3.2 Tenses & Grammar
 - **Order:** Strict Subject-Verb-Object (SVO).
-- **Pronouns:** `mi` (I/me), `yu` (you), `hi` (he/him), `xe` (she/her), `it` (it), `wi` (we/us), `de` (they/them).
-- **Possessives:** Pronoun + `-n` (`min`, `yun`, `hin`, `xen`, `win`, `den`).
+- **Pronouns:** `mi` (I/me), `yu` (you), `hi` (he/him), `xe` (she/her), `it` (it), `wi` (we/us), `dey` (they/them).
+- **Possessives:** Pronoun + `-n` (`min`, `yun`, `hin`, `xen`, `win`, `deyn`).
 - **Verbs:**
   - Present: `mi go` (I go), `hi go` (He goes — no redundant 3rd-person *-s*).
   - Past: `mi goed` (I went), `hi bayed` (He bought), `xe teked` (She took).
@@ -147,10 +147,10 @@ translator = UniverlanTranslator()
 res = translator.translate("We do not wait for the dangerous enemy.")
 
 print(res.univerlan_text)
-# Output: "wi no wait for de danjas enemi."
+# Output: "wi no weit for de danjas enemi."
 
 print(res.ipa_transcription)
-# Output: "/wi/ /no/ /weɪt/ /fɔr/ /dɛ/ /danʒas/ /ˈɛnɛmi/."
+# Output: "/wi/ /nɔ/ /weɪt/ /fɔr/ /dɛ/ /dandʒas/ /ɛnɛmi/."
 
 # Synthesize speech
 tts = SpeechSynthesizer()

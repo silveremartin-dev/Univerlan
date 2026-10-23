@@ -20,7 +20,7 @@ from source.phonetics import to_ipa
 
 
 def export_dictionary() -> None:
-    doc_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "doc")
+    doc_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "docs")
     os.makedirs(doc_dir, exist_ok=True)
 
     entries = []

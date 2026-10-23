@@ -1268,29 +1268,29 @@
   },
   {
     "english": "their",
-    "univerlan": "den",
-    "ipa": "/dɛn/",
+    "univerlan": "deyn",
+    "ipa": "/dɛjn/",
     "type": "pronoun",
     "notes": "Pronominal system"
   },
   {
     "english": "theirs",
-    "univerlan": "den",
-    "ipa": "/dɛn/",
+    "univerlan": "deyn",
+    "ipa": "/dɛjn/",
     "type": "pronoun",
     "notes": "Pronominal system"
   },
   {
     "english": "them",
-    "univerlan": "de",
-    "ipa": "/dɛ/",
+    "univerlan": "dey",
+    "ipa": "/dɛj/",
     "type": "pronoun",
     "notes": "Pronominal system"
   },
   {
     "english": "themselves",
-    "univerlan": "deselfs",
-    "ipa": "/dɛsɛlfs/",
+    "univerlan": "deyselfs",
+    "ipa": "/dɛjsɛlfs/",
     "type": "pronoun",
     "notes": "Pronominal system"
   },
@@ -1317,8 +1317,8 @@
   },
   {
     "english": "they",
-    "univerlan": "de",
-    "ipa": "/dɛ/",
+    "univerlan": "dey",
+    "ipa": "/dɛj/",
     "type": "pronoun",
     "notes": "Pronominal system"
   },
@@ -1415,8 +1415,8 @@
   },
   {
     "english": "wait",
-    "univerlan": "wait",
-    "ipa": "/waɪt/",
+    "univerlan": "weit",
+    "ipa": "/weɪt/",
     "type": "lexicon",
     "notes": "Core vocabulary"
   },

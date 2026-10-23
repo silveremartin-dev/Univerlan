@@ -32,10 +32,10 @@ Personal pronouns are completely invariant for case (subject vs. object). The ro
 |---|---|---|---|
 | **1st person** | `mi` (I / me) | `wi` (we / us) | `min` (my/mine), `win` (our/ours) |
 | **2nd person** | `yu` (you) | `yus` (you all / y'all) | `yun` (your/yours), `yusn` (your-pl) |
-| **3rd person (animate/masc)** | `hi` (he / him) | `de` (they / them) | `hin` (his), `den` (their/theirs) |
-| **3rd person (animate/fem)** | `xe` (she / her) | `de` (they / them) | `xen` (her/hers), `den` (their/theirs) |
-| **3rd person (inanimate/neutral)**| `it` (it) | `des` / `de` (they) | `itn` (its), `den` (theirs) |
-| **Reflexive marker** | `-self` (`miself`, `yuself`, `hiself`, `xeself`, `itself`, `wiself`, `deselfs`) |
+| **3rd person (animate/masc)** | `hi` (he / him) | `dey` (they / them) | `hin` (his), `deyn` (their/theirs) |
+| **3rd person (animate/fem)** | `xe` (she / her) | `dey` (they / them) | `xen` (her/hers), `deyn` (their/theirs) |
+| **3rd person (inanimate/neutral)**| `it` (it) | `deys` / `dey` (they) | `itn` (its), `deyn` (theirs) |
+| **Reflexive marker** | `-self` (`miself`, `yuself`, `hiself`, `xeself`, `itself`, `wiself`, `deyselfs`) |
 
 ---
 
@@ -47,7 +47,7 @@ There are **zero irregular verbs** in Univerlan. The historical chaos of *be/was
 The base root acts as the infinitive and the general/present tense:
 - `mi go` = "I go"
 - `hi go` = "He goes" (no superfluous `-s` agreement ending!)
-- `de go` = "They go"
+- `dey go` = "They go"
 
 ### 3.2 Tenses and Aspect Markers
 
@@ -65,7 +65,7 @@ The base root acts as the infinitive and the general/present tense:
 In Univerlan, `is` is the universal present copula:
 - `mi is redi` = "I am ready"
 - `yu is redi` = "You are ready"
-- `de is redi` = "They are ready"
+- `dey is redi` = "They are ready"
 - Past: `ised` (or `beed`): `mi ised redi` ("I was ready")
 - Future: `wil be`: `mi wil be redi` ("I will be ready")
 
@@ -73,7 +73,7 @@ In Univerlan, `is` is the universal present copula:
 Place `no` directly before the verb:
 - `mi no no` = "I do not know" (`no` = not, `no` [v.] = know)
 - `hi no goed tu de stasion` = "He did not go to the station"
-- `wi no wil wait` = "We will not wait"
+- `wi no wil weit` = "We will not wait"
 
 ---
 

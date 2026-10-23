@@ -17,13 +17,13 @@ Target: Interstellar Trade & Technical Communication
 | **it** | `it` | Pronoun | English *it* |
 | **we / us** | `wi` | Pronoun | English *we* |
 | **you (plur.)** | `yus` | Pronoun | Analytic plural of `yu` |
-| **they / them** | `de` | Pronoun | English *they* with `d` for [ð] |
+| **they / them** | `dey` | Pronoun | English *they* with `d` for [ð] |
 | **my / mine** | `min` | Possessive | `mi` + `-n` |
 | **your / yours** | `yun` | Possessive | `yu` + `-n` |
 | **his** | `hin` | Possessive | `hi` + `-n` |
 | **her / hers** | `xen` | Possessive | `xe` + `-n` |
 | **our / ours** | `win` | Possessive | `wi` + `-n` |
-| **their / theirs**| `den` | Possessive | `de` + `-n` |
+| **their / theirs**| `deyn` | Possessive | `dey` + `-n` |
 | **the** | `de` | Article | Invariable definite article |
 | **a / an / one** | `un` | Article/Num | From Latin/Romance *unus* |
 | **and** | `and` | Conjunction | Logical conjunction |

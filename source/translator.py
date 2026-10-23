@@ -175,7 +175,7 @@ LEXICON_EN_TO_UNIVERLAN: Dict[str, str] = {
     "stop": "stop",
     "start": "stat",
     "begin": "stat",
-    "wait": "wait",
+    "wait": "weit",
     "understand": "andastan",
     "agree": "agri",
     "bring": "bring",
@@ -267,7 +267,7 @@ class UniverlanTranslator:
         s = re.sub(r"\b(i'm)\b", "mi is", s, flags=re.IGNORECASE)
         s = re.sub(r"\b(you're)\b", "yu is", s, flags=re.IGNORECASE)
         s = re.sub(r"\b(we're)\b", "wi is", s, flags=re.IGNORECASE)
-        s = re.sub(r"\b(they're)\b", "de is", s, flags=re.IGNORECASE)
+        s = re.sub(r"\b(they're)\b", "dey is", s, flags=re.IGNORECASE)
 
         # Tokenize preserving punctuation and whitespace
         tokens = re.findall(r"[A-Za-z\-]+|[0-9]+|[^\w\s]|\s+", s)

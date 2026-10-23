@@ -185,14 +185,14 @@ Total entries: **225** | Generated deterministically from canonical source.
 | **thanks** | `dank` | /dank/ | lexicon | Core vocabulary |
 | **that** | `dat` | /dat/ | lexicon | Core vocabulary |
 | **the** | `de` | /dɛ/ | lexicon | Core vocabulary |
-| **their** | `den` | /dɛn/ | pronoun | Pronominal system |
-| **theirs** | `den` | /dɛn/ | pronoun | Pronominal system |
-| **them** | `de` | /dɛ/ | pronoun | Pronominal system |
-| **themselves** | `deselfs` | /dɛsɛlfs/ | pronoun | Pronominal system |
+| **their** | `deyn` | /dɛjn/ | pronoun | Pronominal system |
+| **theirs** | `deyn` | /dɛjn/ | pronoun | Pronominal system |
+| **them** | `dey` | /dɛj/ | pronoun | Pronominal system |
+| **themselves** | `deyselfs` | /dɛjsɛlfs/ | pronoun | Pronominal system |
 | **then** | `den` | /dɛn/ | lexicon | Core vocabulary |
 | **there** | `der` | /dɛr/ | lexicon | Core vocabulary |
 | **these** | `dis` | /dis/ | lexicon | Core vocabulary |
-| **they** | `de` | /dɛ/ | pronoun | Pronominal system |
+| **they** | `dey` | /dɛj/ | pronoun | Pronominal system |
 | **think** | `tink` | /tink/ | lexicon | Core vocabulary |
 | **this** | `dis` | /dis/ | lexicon | Core vocabulary |
 | **those** | `dos` | /dɔs/ | lexicon | Core vocabulary |
@@ -206,7 +206,7 @@ Total entries: **225** | Generated deterministically from canonical source.
 | **understand** | `andastan` | /andastan/ | lexicon | Core vocabulary |
 | **us** | `wi` | /wi/ | pronoun | Pronominal system |
 | **very** | `veri` | /vɛri/ | lexicon | Core vocabulary |
-| **wait** | `wait` | /waɪt/ | lexicon | Core vocabulary |
+| **wait** | `weit` | /weɪt/ | lexicon | Core vocabulary |
 | **warm** | `mek-hot` | /mɛk.hɔt/ | wilkins_vector | Wilkins ontology: causative.thermal.hot |
 | **water** | `wata` | /wata/ | lexicon | Core vocabulary |
 | **we** | `wi` | /wi/ | pronoun | Pronominal system |

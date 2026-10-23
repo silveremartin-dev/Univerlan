@@ -20,8 +20,8 @@ from source.wilkins import WILKINS_VECTOR_MAP
 
 def verify():
     print("--- Auditing Univerlan Lexicon and Corpus ---")
-    dict_file = ROOT_DIR / "doc" / "dictionary.json"
-    prince_file = ROOT_DIR / "doc" / "little_prince.json"
+    dict_file = ROOT_DIR / "docs" / "dictionary.json"
+    prince_file = ROOT_DIR / "docs" / "little_prince.json"
 
     errors = 0
 

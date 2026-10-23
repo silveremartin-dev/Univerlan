@@ -158,11 +158,11 @@ PRONOUN_MAP: Dict[str, str] = {
     "its": "itn",
     "itself": "itself",
     # 3rd person plural
-    "they": "de",
-    "them": "de",
-    "their": "den",
-    "theirs": "den",
-    "themselves": "deselfs",
+    "they": "dey",
+    "them": "dey",
+    "their": "deyn",
+    "theirs": "deyn",
+    "themselves": "deyselfs",
 }
 
 # Irregular plural replacements

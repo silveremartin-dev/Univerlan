@@ -9,9 +9,9 @@ def test_pronoun_regularization():
     assert Regularizer.regularize_token("my") == "min"
     assert Regularizer.regularize_token("she") == "xe"
     assert Regularizer.regularize_token("her") == "xe"
-    assert Regularizer.regularize_token("they") == "de"
-    assert Regularizer.regularize_token("them") == "de"
-    assert Regularizer.regularize_token("their") == "den"
+    assert Regularizer.regularize_token("they") == "dey"
+    assert Regularizer.regularize_token("them") == "dey"
+    assert Regularizer.regularize_token("their") == "deyn"
 
 
 def test_irregular_verbs_elimination():
