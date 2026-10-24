@@ -595,10 +595,18 @@ class UniverlanHandler(http.server.BaseHTTPRequestHandler):
 
     def do_GET(self) -> None:
         if self.path in ("/", "/index.html"):
+            root_index = os.path.join(
+                os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                "index.html",
+            )
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")
             self.end_headers()
-            self.wfile.write(HTML_PAGE.encode("utf-8"))
+            if os.path.exists(root_index):
+                with open(root_index, "rb") as f:
+                    self.wfile.write(f.read())
+            else:
+                self.wfile.write(HTML_PAGE.encode("utf-8"))
         else:
             self.send_response(404)
             self.end_headers()
@@ -610,12 +618,21 @@ class UniverlanHandler(http.server.BaseHTTPRequestHandler):
 
         if self.path == "/api/translate":
             text = data.get("text", "")
-            res = self.translator.translate(text)
+            direction = data.get("direction", "to_univerlan")
+            target_lang = data.get("target_lang", "fr")
+            source_lang = data.get("source_lang", "auto")
+            res = self.translator.translate(
+                text,
+                direction=direction,
+                target_lang=target_lang,
+                source_lang=source_lang,
+            )
             resp_data = {
                 "english": res.english_source,
                 "univerlan": res.univerlan_text,
                 "ipa": res.ipa_transcription,
-                "gloss": res.gloss,
+                "gloss": " | ".join(res.gloss) if isinstance(res.gloss, list) else str(res.gloss),
+                "gloss_list": res.gloss,
             }
             self.send_response(200)
             self.send_header("Content-Type", "application/json")

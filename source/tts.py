@@ -29,33 +29,91 @@ class SpeechSynthesizer:
 
     def prepare_phonetic_script(self, univerlan_text: str) -> str:
         """Prepares Univerlan text for English-based TTS engines so they pronounce
-
-        pure vowels correctly (e.g. 'mi' pronounced as /mi/ rather than English /maɪ/).
+        all 29 phonemes accurately (c -> ch, x -> sh, pure vowels, separated compounds).
         """
-        # Minor adjustments for default English SAPI voice phonology
+        if not univerlan_text:
+            return ""
+
+        import re
         adapted = univerlan_text
-        # Replace 'mov-tu-mi' with separated tokens for clear prosodic pacing
-        adapted = adapted.replace("-", " ")
-        # Ensure 'mi' is spoken as 'mee' by English voice
-        adapted = re_sub_whole_word(adapted, "mi", "mee")
-        adapted = re_sub_whole_word(adapted, "wi", "wee")
-        adapted = re_sub_whole_word(adapted, "hi", "hee")
-        adapted = re_sub_whole_word(adapted, "xe", "shee")
-        adapted = re_sub_whole_word(adapted, "dey", "day")
-        adapted = re_sub_whole_word(adapted, "de", "deh")
-        adapted = re_sub_whole_word(adapted, "tu", "too")
-        adapted = re_sub_whole_word(adapted, "nu", "noo")
-        adapted = re_sub_whole_word(adapted, "fud", "food")
-        adapted = re_sub_whole_word(adapted, "cild", "chilled")
-        adapted = re_sub_whole_word(adapted, "cilds", "children")
+
+        # 1. Separate compound hyphens (e.g., mov-up -> mov up)
+        adapted = re.sub(r"(\w+)-(\w+)", r"\1 \2", adapted)
+
+        # 2. High-frequency monosyllables and function words
+        substitutions = [
+            (r"\bde\b", "deh"),
+            (r"\bDe\b", "Deh"),
+            (r"\bmi\b", "mee"),
+            (r"\bMi\b", "Mee"),
+            (r"\bwi\b", "wee"),
+            (r"\bWi\b", "Wee"),
+            (r"\bhi\b", "hee"),
+            (r"\bHi\b", "Hee"),
+            (r"\bxe\b", "shee"),
+            (r"\bXe\b", "Shee"),
+            (r"\btu\b", "too"),
+            (r"\bTu\b", "Too"),
+            (r"\bnu\b", "noo"),
+            (r"\bNu\b", "Noo"),
+            (r"\bdu\b", "doo"),
+            (r"\bDu\b", "Doo"),
+            (r"\bfud\b", "food"),
+            (r"\bdis\b", "diss"),
+            (r"\bDis\b", "Diss"),
+            (r"\bdat\b", "that"),
+            (r"\bDat\b", "That"),
+            (r"\bdos\b", "those"),
+            (r"\bDos\b", "Those"),
+            (r"\bder\b", "there"),
+            (r"\bDer\b", "There"),
+            (r"\bden\b", "then"),
+            (r"\bDen\b", "Then"),
+            (r"\bdan\b", "than"),
+            (r"\bwit\b", "with"),
+            (r"\bWit\b", "With"),
+            (r"\bprins\b", "prince"),
+            (r"\bPrins\b", "Prince"),
+            (r"\blitl\b", "little"),
+            (r"\bLitl\b", "Little"),
+            (r"\bster\b", "star"),
+            (r"\bSter\b", "Star"),
+            (r"\bsters\b", "stars"),
+            (r"\bSters\b", "Stars"),
+        ]
+        for pat, rep in substitutions:
+            adapted = re.sub(pat, rep, adapted)
+
+        # 3. Systematic phoneme mappings:
+        # Univerlan 'x' is ALWAYS [ʃ] (sh)
+        adapted = re.sub(r"x", "sh", adapted)
+        adapted = re.sub(r"X", "Sh", adapted)
+
+        # Univerlan 'c' is ALWAYS [tʃ] (ch)
+        adapted = re.sub(r"c", "ch", adapted)
+        adapted = re.sub(r"C", "Ch", adapted)
+
         return adapted
 
-    def speak(self, text: str, blocking: bool = True) -> bool:
-        """Synthesizes and speaks Univerlan text aloud.
+    def speak(self, text: str, lang: str = "uv", blocking: bool = True) -> bool:
+        """Synthesizes and speaks text aloud using the appropriate language voice.
 
-        Uses Windows PowerShell System.Speech.Synthesis natively on Windows.
+        - lang == 'uv': Univerlan phonetic adapted text spoken by English voice.
+        - lang == 'fr': Spoken natively by French voice.
+        - lang == 'en': Spoken natively by English voice.
         """
-        adapted = self.prepare_phonetic_script(text)
+        if not text:
+            return False
+
+        if lang == "uv":
+            spoken_text = self.prepare_phonetic_script(text)
+            culture_filter = "en*"
+        elif lang == "fr":
+            spoken_text = text
+            culture_filter = "fr*"
+        else:
+            spoken_text = text
+            culture_filter = "en*"
 
         # On Windows, use System.Speech.Synthesis via PowerShell with safe stdin input
         if sys.platform == "win32":
@@ -63,13 +121,15 @@ class SpeechSynthesizer:
                 f"Add-Type -AssemblyName System.Speech; "
                 f"$s = New-Object System.Speech.Synthesis.SpeechSynthesizer; "
                 f"$s.Rate = {int(self.rate)}; $s.Volume = {int(self.volume)}; "
+                f"$v = $s.GetInstalledVoices() | Where-Object {{ $_.VoiceInfo.Culture.Name -like '{culture_filter}' -and $_.Enabled }} | Select-Object -First 1; "
+                f"if ($v) {{ $s.SelectVoice($v.VoiceInfo.Name) }}; "
                 f"$text = [Console]::In.ReadToEnd().Trim(); "
                 f"if ($text) {{ $s.Speak($text) }}"
             )
             try:
                 subprocess.run(
                     ["powershell", "-NoProfile", "-Command", ps_script],
-                    input=adapted,
+                    input=spoken_text,
                     text=True,
                     check=True,
                     capture_output=True,
@@ -83,10 +143,11 @@ class SpeechSynthesizer:
         # On Linux/macOS fallback to espeak or say
         try:
             if sys.platform == "darwin":
-                subprocess.run(["say", adapted], check=True)
+                subprocess.run(["say", spoken_text], check=True)
                 return True
             else:
-                subprocess.run(["espeak", adapted], check=True)
+                voice_arg = "-vfr" if lang == "fr" else "-ven"
+                subprocess.run(["espeak", voice_arg, spoken_text], check=True)
                 return True
         except Exception:
             return False
